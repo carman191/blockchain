@@ -379,11 +379,11 @@ contract COMF is Context, IERC20, Ownable {
     string private _name = "MyTokenName";
     string private _symbol = "TOK";
     uint8 private _decimals = 18;
-    uint256 public _taxFee = 3;
+    uint256 public _taxFee = 30;
     uint256 private _previousTaxFee = _taxFee;
-    uint256 public _developmentFee = 3;
+    uint256 public _developmentFee = 30;
     uint256 private _previousDevelopmentFee = _developmentFee;
-    uint256 public _liquidityFee = 2;
+    uint256 public _liquidityFee = 20;
     uint256 private _previousLiquidityFee = _liquidityFee;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
