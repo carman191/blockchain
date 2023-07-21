@@ -1,6 +1,6 @@
 # smart-contract
 
-# FOR TAX/REFLFECTIONS SMART CONTRACT
+# FOR TAX/REFLFECTIONS SMART CONTRACT in BSC Chain
 
 Line 157 put the OWNER WALLET ADDRESS
 Change contract name in line number 365
@@ -10,4 +10,4 @@ Change Symbol in line 380
 Line 382 Reflections Percentage = always put one ZERO in the end ( 1 percent = 10 )
 Line 384 Development/Tax Percentage
 Line 386 Liquidity Tax Percentage
-Address on line 409 is Pancakeswap address
+Note: Address on line 409 is Pancakeswap address
